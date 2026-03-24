@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <ApplicationIcon>via.ico</ApplicationIcon>
+    <!-- Assembly identity — embedded in PE header, used by AV trust scoring -->
+    <AssemblyTitle>VIA x4</AssemblyTitle>
+    <Product>VIA x4</Product>
+    <Company>VIA</Company>
+    <Description>Secure peer-to-peer encrypted file transfer application powered by croc</Description>
+    <Copyright>Copyright © 2026 VIA</Copyright>
+    <Trademark>VIA x4</Trademark>
+    <Version>2.33.1</Version>
+    <FileVersion>2.33.1.0</FileVersion>
+    <AssemblyVersion>2.33.1.0</AssemblyVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="3.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="croc.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="via_logo.png" />
+  </ItemGroup>
+
+</Project>
