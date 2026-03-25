@@ -59,13 +59,6 @@ No installation needed — just download `VIA x4.exe` and run it.
 
 ---
 
-## Code Signing Policy
-
-Free code signing provided by [SignPath.io](https://signpath.io), certificate by [SignPath Foundation](https://signpath.org).
-
-- **Approvers:** [Owners](https://github.com/orgs/VIA-TRANSFER/people?query=role%3Aowner)
-- **Committers and reviewers:** [Members](https://github.com/orgs/VIA-TRANSFER/people)
-
 **Privacy policy:** This program will not transfer any information to other networked systems unless specifically requested by the user.
 
 ---
